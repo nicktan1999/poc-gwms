@@ -1,0 +1,148 @@
+/* Form css */
+.form-container {
+    padding: 10px 12px;
+}
+
+.form-container h5 {
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: black;
+}
+.form-control-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.styled-input Input{
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #1C2025;
+    background: #f8f4f4;
+    border: none;
+    border-bottom: 1px solid #DAE2ED;
+    box-shadow: none;
+}
+
+.styled-input Input:hover {
+    border-color: #3399FF;
+}
+
+.styled-input Input:focus {
+    outline: 0;
+    border-color: #3399FF;
+}
+
+.styled-date Input{
+    width: 100%;
+    margin-left: 4.5px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #1C2025;
+    background: #f8f4f4;
+    border: none;
+    border-bottom: 1px solid #DAE2ED;
+    box-shadow: none;
+}
+
+.styled-date Input:hover {
+    border-color: #3399FF;
+}
+
+.styled-date Input:focus {
+    outline: 0;
+    border-color: #3399FF;
+}
+
+.styled-select {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #1C2025;
+    background: #f8f4f4;
+    border: none;
+    border-bottom: 1px solid #DAE2ED;
+    box-shadow: none;
+    height: 40px;
+}
+
+.styled-select:hover {
+    border-color: #3399FF;
+}
+
+.styled-select:focus {
+    outline: 0;
+    border-color: #3399FF;
+}
+
+.label {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+    align-self: center;
+    text-align: left;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.required-asterisk {
+    position: absolute;
+    top: 3px;
+    left: -12px;
+    color: red;
+    font-size: 1rem;
+}
+
+/* SubNav css */
+.links-container {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    padding: 2px 12px;
+}
+
+.link-item-container {
+    display: flex;
+    align-items: center;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    color: grey !important;
+    text-decoration: none !important;
+    padding: 2px;
+}
+
+.link-item:hover{
+    background-color: #f8f4f4;
+}
+
+.link-label {
+    margin-left: 4px; 
+    font-size: 15px; 
+    color: black;
+}

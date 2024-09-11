@@ -1,0 +1,67 @@
+/* MiniDrawer */
+.MuiListItemButton-root {
+    padding: px 16px; 
+  }
+/* Nav css */
+.navbar {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(2, 24, 56);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1200;
+}
+
+.logo-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    .img-Logo {
+        padding:0px;
+        margin:0px;
+    }
+}
+
+.site-name {
+    padding: 0;
+    margin: 0;
+}
+
+.links-container {
+    margin-right: 20px;
+    display: flex;
+    width: auto;
+    justify-content: flex-start;
+}
+
+.logo-container img {
+    height: 100%;
+    width: auto;
+    max-height: 100%;
+}
+
+.navbar div a {
+    cursor: pointer;
+    text-decoration: none; 
+    color: white; 
+    margin-right: 0px;
+}
+
+.navbar div a:hover {
+    text-decoration: underline;
+}
+
+.sandbox {
+    font-size: 40px;
+    font-weight: 100;
+}
